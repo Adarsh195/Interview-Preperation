@@ -1,4 +1,4 @@
-package org.example.Interviews;
+package org.example.Mock_Interviews;
 
 public class Solution_25_May_Sakshee_01 {
     public int countOfDifferentDominoCombination(int n) {

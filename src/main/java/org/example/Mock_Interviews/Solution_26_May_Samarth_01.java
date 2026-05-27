@@ -1,4 +1,4 @@
-package org.example.Interviews;
+package org.example.Mock_Interviews;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

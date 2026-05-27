@@ -1,7 +1,5 @@
-package org.example.Interviews;
+package org.example.Mock_Interviews;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Solution_27_May_Saurabh_01 {
