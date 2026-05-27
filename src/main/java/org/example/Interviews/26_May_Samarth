@@ -1,0 +1,18 @@
+Samarth Jain:
+Given an array of integers nums, and an integer k,
+representing the size of a window, find the maximum element in
+every sliding window of size k. You may only see the k numbers
+in the window at a time. The window moves one position to the right at a time.
+
+
+
+
+Samarth Jain:
+Design a data structure that supports adding new
+numbers from a data stream and finding the median of all elements seen
+so far.
+void addNum(int num) - Adds an integer num to the data structure.double
+findMedian() - Returns the median of all elements so far.
+Example:
+addNum(1)addNum(2)findMedian() -> 1.5
+addNum(3)
