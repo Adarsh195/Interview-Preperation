@@ -26,7 +26,7 @@ public class Game {
     }
     public void initialize() throws IOException {
         allList = new ArrayList<String>();
-        Scanner scan = new Scanner(new File("/CSESs/src/main/java/org/example/mini_project/Requirements.txt"));
+        Scanner scan = new Scanner(new File("src/main/java/org/example/mini_project/Requirements.txt"));
         while(scan.hasNextLine()){
             allList.add(scan.nextLine());
         }
@@ -49,7 +49,11 @@ public class Game {
             if  (!invalidWords.contains(c)) {
                 invalidWords.add(c);
                 noOfGuess++;
-                System.out.println("wrong words till now:" + invalidWords.toArray().toString());
+                System.out.print("wrong words till now:" );
+                for (Character x: invalidWords) System.out.print(x+" ");
+                System.out.println();
+//                Map<Character, Integer> x = new HashMap<>();
+                
 
             }
         }
